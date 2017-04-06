@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>来撩主播</title>
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<script type="text/javascript">
+    // 高度适配说明：通过设置一个方便计算的数值，来设置根元素的font-size,所有元素通过rem为单位达到适配需求；
+    //具体使用：
+    //通过视觉稿宽度除以一个数获得一个方便计算的值100；
+    //所有元素的高度可用{(视觉稿量的的高度)/100}rem获得适配的高度；
+    !function(){function a(){document.documentElement.style.fontSize=document.documentElement.clientWidth/6.4+"px"}var b=null;window.addEventListener("resize",function(){clearTimeout(b),b=setTimeout(a,300)},!1),a()}(window);
+    </script>
+    <link rel="icon" href="images/logo.jpg" type="image/x-icon"/>
+</head>
+<body>
+<!-- 头部开始 -->
+	<div id="wrap">
+		<ul class="hiSlider hiSlider3">
+			<li class="hiSlider-item"><img src="images/1.jpg" alt="11111"></li>
+			<li class="hiSlider-item"><img src="images/2.jpg" alt="22222"></li>
+			<li class="hiSlider-item"><img src="images/3.jpg" alt="33333"></li>
+			<li class="hiSlider-item"><img src="images/4.jpg" alt="44444"></li>
+			<li class="hiSlider-item"><img src="images/5.jpg" alt="55555"></li>
+			<li class="hiSlider-item"><img src="images/6.jpg" alt="66666"></li>
+			<li class="hiSlider-item"><img src="images/7.jpg" alt="77777"></li>
+		</ul>
+	</div>
+	<div class="top_more">
+		<div class="top_more_left">
+			<p><span></span>热撩主播</p>
+		</div>
+		<div class="top_more_right">
+			<a><p>查看全部<span>&gt;</span></p></a>
+		</div>
+	</div>
+	<div class="nav">
+		<ul>
+			<li class="nav_first nav_list" onclick="list(0)"><p>热门</p></li>
+			<li class="nav_second nav_list" onclick="list(1)"><p>排行榜</p></li>
+		</ul>
+	</div>
+<!-- 头部结束 -->
+<div class="main_box">
+	<div class="main">
+<!-- 热门开始 -->
+		<div class="main_hot main_list" >
+		<div class="main_hot_box">
+			<ul>
+				<li class="main_hot_anchor">
+					<div class="anchor_number">
+						<p>已撩 : <span>582</span>次</p>
+					</div>
+					<a onclick="reward(0)"><div class="anchor_imgbox">
+						<img src="images/fbb.png">
+						<div class="anchor_icon"><img src="images/icon.png"></div>
+						<div class="anchor_name">
+							<p>YY主播 : <span class="cc">李晨的冰冰</span></p>
+						</div>
+					</div></a>
+                    <div class="anchor_introduce">
+                    	<p>曾经的皇族领队，李黑龙，造就了YY上第一哥万人酱。</p>
+                    </div>
+				</li>
+				<li class="main_hot_anchor main_hot_anchor_right">
+					<div class="anchor_number">
+						<p>已撩 : <span>582</span>次</p>
+					</div>
+					<a onclick="reward(1)"><div class="anchor_imgbox">	
+						<img src="images/qf.png">					
+						<div class="anchor_name">
+							<p>分贝主播 : <span class="cc">七哥乔峰</span></p>
+						</div>
+					</div></a>
+                    <div class="anchor_introduce">
+                    	<p>曾经的皇族领队，李黑龙，造就了YY上第一哥万人酱。</p>
+                    </div>
+				</li>
+			</ul>
+			<ul>
+				<li class="main_hot_anchor">
+					<div class="anchor_number">
+						<p>已撩 : <span>582</span>次</p>
+					</div>
+					<a onclick="reward(2)"><div class="anchor_imgbox">
+						<img src="images/Chrisdina.png">
+						<div class="anchor_name">
+							<p>YY主播 : <span class="cc">Chrisdina</span></p>
+						</div>
+					</div></a>
+                    <div class="anchor_introduce">
+                    	<p>曾经的皇族领队，李黑龙，造就了YY上第一哥万人酱。</p>
+                    </div>
+				</li>
+				<li class="main_hot_anchor main_hot_anchor_right">
+					<div class="anchor_number">
+						<p>已撩 : <span>582</span>次</p>
+					</div>
+					<a onclick="reward(3)"><div class="anchor_imgbox">
+						<img src="images/zgrhl.png">
+						<div class="anchor_icon"><img src="images/icon.png"></div>
+						<div class="anchor_name">
+							<p>分贝主播 : <span class="cc">这个人很懒</span></p>
+						</div>
+					</div></a>
+                    <div class="anchor_introduce">
+                    	<p>曾经的皇族领队，李黑龙，造就了YY上第一哥万人酱。</p>
+                    </div>
+				</li>
+			</ul>
+			<ul>
+				<li class="main_hot_anchor">
+					<div class="anchor_number">
+						<p>已撩 : <span>582</span>次</p>
+					</div>
+					<a onclick="reward(4)"><div class="anchor_imgbox">
+						<img src="images/Chrisdina2.png">
+						<div class="anchor_name">
+							<p>YY主播 : <span class="cc">李晨的冰冰</span></p>
+						</div>
+					</div></a>
+                    <div class="anchor_introduce">
+                    	<p>曾经的皇族领队，李黑龙，造就了YY上第一哥万人酱。</p>
+                    </div>
+				</li>
+				<li class="main_hot_anchor main_hot_anchor_right">
+					<div class="anchor_number">
+						<p>已撩 : <span>582</span>次</p>
+					</div>
+					<a onclick="reward(5)"><div class="anchor_imgbox">
+						<img src="images/zgrhl2.png">
+						<div class="anchor_name">
+							<p>YY主播 : <span class="cc">李晨的冰冰</span></p>
+						</div>
+					</div></a>
+                    <div class="anchor_introduce">
+                    	<p>曾经的皇族领队，李黑龙，造就了YY上第一哥万人酱。</p>
+                    </div>
+				</li>
+			</ul>
+			</div>
+			<div class="bottom">
+				<div class="load_more" onclick="hotLoad()">
+					<img src="images/top01.png">
+					<p>加载更多...</p>
+				</div>
+				<div class="copyright">
+					<p>版权所有@七度传媒</p>
+					<p>Copy right @ Qidu .lnc</p>
+				</div>
+			</div>
+		</div>
+<!-- 热门结束 -->
+		
+<!-- 排行榜开始 -->
+		<div class="main_rank main_list">
+			<ul class="rank">
+			<!-- 前三名开始 -->
+				<li>
+					<a href="reward.html" onclick="reward()">
+					<div class="li_before"></div>
+					<p class="li_serial">1</p>     
+					<div class="li_head">       	
+						<img class="head_icon" src="images/king.png">
+						<img class="head" src="images/head.jpg">
+					</div>
+					<div class="li_information">   
+						<div class="information_top">
+							<p class="nickname">YY主播：这个人很懒</p> 
+						</div>
+						<div class="information_bottom">
+							<img class="contribute_img" src="images/money.png">
+							<p class="contribute"><span>115</span>次</p>
+						</div>
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="reward.html" onclick="reward()">
+					<div class="li_before_one"></div>  
+					<p class="li_serial_one">2</p>    
+					<div class="li_head">       	
+						<img class="head_icon" src="images/king1.png">
+						<img class="head_one" src="images/head.jpg">
+					</div>
+					<div class="li_information">   
+						<div class="information_top">
+							<p class="nickname">YY主播：这个人很懒</p> 
+						</div>
+						<div class="information_bottom">
+							<img class="contribute_img" src="images/money.png">
+							<p class="contribute"><span>115</span>次</p>
+						</div>
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="reward.html" onclick="reward()">
+					<div class="li_before_two"></div>   
+					<p class="li_serial_two">3</p>     
+					<div class="li_head">       	
+						<img class="head_icon" src="images/king2.png">
+						<img class="head_two" src="images/head.jpg">
+					</div>
+					<div class="li_information">   
+						<div class="information_top">
+							<p class="nickname">YY主播：这个人很懒</p>
+						</div>
+						<div class="information_bottom">
+							<img class="contribute_img" src="images/money.png">
+							<p class="contribute"><span>115</span>次</p>
+						</div>
+					</div>
+					</a>
+				</li>	
+				<!-- 前三名结束 -->
+				<!-- 第四名开始 -->
+				<li>
+					<a href="reward.html" onclick="reward()">
+					<p class="li_serial_three">4</p>     
+					<div class="li_head">       	
+						<img class="head_three" src="images/head.jpg">
+					</div>
+					<div class="li_information">   
+						<div class="information_top">
+							<p class="nickname">YY主播：这个人很懒</p> 
+						</div>
+						<div class="information_bottom">
+							<img class="contribute_img" src="images/money.png">
+							<p class="contribute"><span>115</span>次</p>
+						</div>
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="reward.html" onclick="reward()">
+					<p class="li_serial_three">5</p>     
+					<div class="li_head">       	
+						<img class="head_three" src="images/head.jpg">
+					</div>
+					<div class="li_information">    
+						<div class="information_top">
+							<p class="nickname">YY主播：这个人很懒</p>
+						</div>
+						<div class="information_bottom">
+							<img class="contribute_img" src="images/money.png">
+							<p class="contribute"><span>115</span>次</p>
+						</div>
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="reward.html" onclick="reward()">
+					<p class="li_serial_three">6</p>
+					<div class="li_head"> 
+						<img class="head_three" src="images/head.jpg">
+					</div>
+					<div class="li_information">
+						<div class="information_top">
+							<p class="nickname">YY主播：这个人很懒</p>
+						</div>
+						<div class="information_bottom">
+							<img class="contribute_img" src="images/money.png">
+							<p class="contribute"><span>115</span>次</p>
+						</div>
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="reward.html" onclick="reward()">
+					<p class="li_serial_three">7</p> 
+					<div class="li_head">   
+						<img class="head_three" src="images/head.jpg">
+					</div>
+					<div class="li_information">
+						<div class="information_top">
+							<p class="nickname">YY主播：这个人很懒</p>
+						</div>
+						<div class="information_bottom">
+							<img class="contribute_img" src="images/money.png">
+							<p class="contribute"><span>115</span>次</p>
+						</div>
+					</div>
+					</a>
+				</li>
+				<!-- 底部开始 -->
+			</ul>
+			<!-- 底部开始 -->
+			<div class="bottom">
+				<div class="load_more"  onclick="rankLoad()">
+					<img src="images/top01.png">
+					<p>加载更多...</p>
+				</div>
+				<div class="copyright">
+					<p>版权所有@七度传媒</p>
+					<p>Copy right @ Qidu .lnc</p>
+				</div>
+			</div>
+			<!-- </ul> -->
+		</div>
+	</div>
+<!-- 排行榜结束 -->
+</div>
+</body>
+<!-- js文件引用 -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/homePage.js"></script>
+    <script src="js/jquery.hiSlider.js"></script>
+	<script type="text/javascript">
+		$('.hiSlider3').hiSlider({
+			isFlexible: true,
+			isSupportTouch: true,
+			titleAttr: function(curIdx){
+				return $('img', this).attr('alt');
+			}
+		});
+		$(".hiSlider-pages").css("left",($('.hiSlider-wrap').width()-$('.hiSlider-pages').width())/2+'px');
+	</script>
+</html>

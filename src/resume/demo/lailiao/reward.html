@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>打赏页面</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/reward.css">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+	<meta name = "format-detection" content = "telephone=no">
+	<script type="text/javascript">
+    // 高度适配说明：通过设置一个方便计算的数值，来设置根元素的font-size,所有元素通过rem为单位达到适配需求；
+    //具体使用：
+    //通过视觉稿宽度除以一个数获得一个方便计算的值100；
+    //所有元素的高度可用{(视觉稿量的的高度)/100}rem获得适配的高度；
+    !function(){function a(){document.documentElement.style.fontSize=document.documentElement.clientWidth/6.4+"px"}var b=null;window.addEventListener("resize",function(){clearTimeout(b),b=setTimeout(a,300)},!1),a()}(window);
+
+    function vagueQ(){
+		document.getElementsByClassName("vague")[0].style.display="none";
+		 var a = document.getElementsByClassName("ysp_anchor_number");
+		 a[0].getElementsByTagName("span")[0].style.display="block";
+	}
+</script>
+<link rel="icon" href="images/logo.jpg" type="image/x-icon"/>
+</head>
+<body onload="getReward()">
+	<!-- 主播头像栏 -->
+	<div class="ysp_anchor_information">
+		<img src="./images/anchor.png" id="anchor_head_portrait">
+		<div class="anchor_admin">
+			<p><span>YY</span>主播<span class="anchor_admin_icon">:</span><span class="anchor_name_first">Chrisdina</span></p>
+		</div>
+		<div class="anchor_lifted">
+			<img src="./images/lift.png" id="lift_png">
+			<p>被撩<span>:</span><span class="anchor_lifted_num">531次</span></p>
+		</div>
+	</div>
+	<!-- 头像栏结束 -->
+	<!-- 主播微信号栏 -->
+	<div class="ysp_anchor_number">
+		<div class="ysp_anchor_number_left">
+			<p>微信号</p>
+			<img class="vague" src="./images/tu .png">
+			<span style="display:none;" id="wechat_id">13912341234</span>
+		</div>
+		<div class="ysp_anchor_number_right">	
+			<a href="#" onclick="vagueQ()">打赏看</a>
+			<img src="./images/wallet.png" id="wallet_png">
+		</div>
+	</div>
+	<!-- 微信号栏结束 -->
+	<!-- 主播个人信息栏 -->
+	<div class="ysp_anchor_detail">
+		<div class="anchor_detail_title">
+			<p>个人信息</p>
+		</div>
+		<ul>
+			<li>姓名<span>:</span><span  class="anchor_detail_name">Chrisdina</span></li>
+			<li>
+				<p>年龄<span>:</span><span class="anchor_detail_age">21岁</span></p>
+				<p>性别<span>:</span><span class="anchor_detail_sex">女</span></p>
+			</li>
+			<li>婚姻状况<span>:</span><span class="anchor_detail_marry">单身狗</span></li>
+			<li>
+				<p>平台<span>:</span><span class="anchor_detail_forum">映客</span>直播</p>
+				<p>粉丝<span>:</span><span class="anchor_detail_fans">50万</span></p>
+			</li>
+		</ul>
+	</div>
+	<!-- 个人信息栏结束 -->
+	<!-- 主播风采栏 -->
+	<div class="anchor_style">
+		<p id="anchor_style_p">主播风采</p>
+		<div class="anchor_style_main">
+			<div class="anchor_style_video">
+				<iframe frameborder="0" width="100%" height="100%" src="http://v.qq.com/iframe/player.html?vid=y0316m7oo9r&tiny=0&auto=0" allowfullscreen></iframe>
+			</div>
+			<p class="anchor_recommend">这是一些介绍，这是一些介绍。这是一些介绍，这是一些介绍。</p>
+			<p class="anchor_recommend">这是一些介绍，这是一些介绍。这是一些介绍，这是一些介绍。这是一些介绍，这是一些介绍。这是一些介绍，这是一些介绍。</p>
+			<img src="images/about.jpg">
+			<p class="anchor_recommend">这是一些介绍，这是一些介绍。这是一些介绍，这是一些介绍。</p>
+			<p class="anchor_recommend">这是一些介绍，这是一些介绍。这是一些介绍，这是一些介绍。这是一些介绍，这是一些介绍。这是一些介绍，这是一些介绍。</p>
+		</div>
+	</div>
+	<!-- 主播风采栏结束 -->
+	<!-- 底部菜单栏 -->
+	<div class="bottom">
+		<div class="load_more" onclick="rewardLoad()">
+			<img src="images/top01.png">
+			<p>加载更多...</p>
+		</div>
+		<div class="copyright">
+			<p>版权所有@七度传媒</p>
+			<p>Copy right @ Qidu .lnc</p>
+		</div>
+	</div>
+	<!-- 底部菜单结束 -->
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/homePage.js"></script>
+</html>

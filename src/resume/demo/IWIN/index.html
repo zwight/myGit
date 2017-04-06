@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<!-- <mata name="keywords" content=""> -->
+	<meta name="description" content="">
+	<title>IWin科技</title>
+	<link rel="stylesheet" href="css/app1.css">
+	<link rel="stylesheet" href="css/font/iconfont.css">
+	<link rel="stylesheet" href="css/top.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+<div class="wrap">
+<div class="main_body">
+<!-- 顶部导航开始 -->
+	<div class="topone">
+		<div class="top_header">
+			<div class="header_logo">
+				<img src="./images/logo.png" alt="">
+			</div>
+			<div class="header_info">
+				<div class="info_a">
+					<a href="#tips" class="info_link">公司新闻</li></a>
+					<a class="info_link" data-toggle="modal" data-target="#myModal1">加入艾盈</li></a>
+					<a class="info_link" data-toggle="modal" data-target="#myModal">联系我们</li></a>
+				</div>
+                <div class="info_phone">
+                	<img src="./images/phone.png" alt="">
+                	<span>0510-85388343</span>
+                </div>
+			</div>
+		</div>
+		<div class="top_menu">
+		    <ul class="menu_body">
+		    	<a href="index.html"><li class="menu_link" onclick="change(0)" style="background: #f59d00">首页</li></a>
+			    <a href="about.html"><li class="menu_link" onclick="change(1)">关于艾盈</li></a>
+			    <a href="solution.html"><li class="menu_link" onclick="change(2)">解决方案</li></a>
+			    <a href="service.html"><li class="menu_link" onclick="change(3)">行业动态</li></a>
+			    <a href="school.html"><li class="menu_link" onclick="change(4)">院校合作</li></a>
+			    <a href="social responsibility.html"><li class="menu_link" onclick="change(5)">社会责任</li></a>
+		    </ul>	 
+		</div>
+	</div>
+<!-- 顶部导航结束 -->
+<!-- 轮播 -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img class="item_active_img" src="images/pic01.jpg" alt="...">
+      <div class="carousel-caption"></div>
+    </div>
+    <div class="item">
+      <img class="item_active_img" src="images/pic02_01.jpg" alt="...">
+      <div class="carousel-caption"></div>
+    </div>
+    <div class="item">
+      <img class="item_active_img" src="images/pic03.jpg" alt="...">
+      <div class="carousel-caption"></div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- 服务品牌 -->
+<div class="brands">
+	<ul class="brand">
+		<h2>服务品牌</h2>
+		<li onMouseOver="getMore(0)" onMouseOut="getMoreOut(0)">
+			<div class="brand_img1 brand_img">
+				<img src="images/telen1.png">
+				<h3 class="tit">艾盈人才</h3>
+			</div>
+			<p>艾盈人才是聚焦于互联网 & IT领域的人才就业服务品牌，以海量的互联网就业机会和精准的人才输送服务享誉中国。</p>
+			<a>了解更多</a>
+		</li>
+		<li onMouseOver="getMore(1)" onMouseOut="getMoreOut(1)">
+			<div class="brand_img2 brand_img">
+				<img src="images/services02.png">
+				<h3 class="tit">企业人才服务</h3>
+			</div>
+			<p>我们向企业提供人才输送、猎头和定制委培服务。"1小时"快速响应机制和"0成本"企业精准招聘平台是我们的承诺。</p>
+			<a>了解更多</a>
+		</li>
+		<li onMouseOver="getMore(2)" onMouseOut="getMoreOut(2)">
+			<div class="brand_img3 brand_img">
+				<img src="images/team1.png">
+				<h3 class="tit">软件开发</h3>
+			</div>
+			<p>艾盈是专注于互联网 & IT人才培养与输送的现代化职业教育品牌，在中国打造领先的互联网实训基地。</p>
+			<a>了解更多</a>
+		</li>
+		<li onMouseOver="getMore(3)" onMouseOut="getMoreOut(3)">
+			<div class="brand_img4 brand_img">
+				<img src="images/innovate1.png">
+				<h3 class="tit">创新孵化</h3>
+			</div>
+			<p>艾盈是专注于互联网 & IT人才培养与输送的现代化职业教育品牌，在中国打造领先的互联网实训基地。</p>
+			<a>了解更多</a>
+		</li>
+	</ul>
+</div>		
+<!-- 服务对象 -->	
+	<ul class="objects">
+		<h2>服务对象</h2>
+		<li class="object" onMouseOver="objectChange(0)" onMouseOut="objectChangeTo(0)">
+			<i class="icon iconfont">&#xe6ea;</i>
+			<div class="object_children">
+				<h3>C9青年群体</h3>
+				<p>处于大学4年和步入职场前5年的青年群体。针对C9青年群体，艾盈正式提出和解析了“塑形“职业教育理念</p>
+			</div>
+		</li>
+		<li class="object" onMouseOver="objectChange(1)" onMouseOut="objectChangeTo(1)">
+			 <i class="icon iconfont">&#xe612;</i>
+			<div class="object_children">
+				<h3>企业雇主</h3>
+				<p>企业雇主艾盈为国内外企业提供互联网人才输送和人才咨询服务，致力于搭建企业和人才之间的敏捷对接平台。</p>
+			</div>
+		</li>
+		<li class="object" onMouseOver="objectChange(2)" onMouseOut="objectChangeTo(2)">
+			<i class="icon iconfont">&#xe785;</i>
+			<div class="object_children">
+				<h3>高等院校</h3>
+				<p>通过“百校万人”计划，每年我们和超过一百所高等院校深度合作，为超过一万名学生提供就业帮助和岗前培训服务</p>
+			</div>
+		</li>
+		<li class="object" onMouseOver="objectChange(3)" onMouseOut="objectChangeTo(3)">
+			 <i class="icon iconfont">&#xe688;</i>
+			<div class="object_children">
+				<h3>政府及社会</h3>
+				<p>作为中国人保部认定的人才服务机构，我们在就业和人才服务领域，积极和政府相关机构合作，为社会尽责尽力。</p>
+			</div>
+		</li>
+	</ul>
+<!-- 关于青麦 -->	
+	<div class="about">
+		<div class="container">
+	        <div id="particles-js"></div>
+	    </div>
+		<div class="abouts">
+			<div class="about_top" >
+				<h2>关于艾盈</h2>
+				<p>艾盈科技是专注于互联网人才教育领域的科技型人力资源服务提供商，是中国领先的综合型青年人才服务机构</p>
+				<p>艾盈科技是上海静安区政府，市北高新园区重点扶植的现代化人才服务高新企业。企业秉承母校上海交通大学”饮水思源”的</p>
+				<p>百年校训和交大系企业“求真、务实”的严谨作风，承担起了"改变中国人才格局，提升中国人才竞争力"的重要历史使命</p>
+				<ul  class="about_top_introduce">
+					<li>
+						<a>
+							<i class="icon iconfont">&#xe64a;</i>
+							<p>使命愿景</p>
+						</a>
+					</li>
+					<li>
+						<a>
+							<i class="icon iconfont">&#xe60a;</i>
+							<p>社会责任</p>
+						</a>
+					</li>
+					<li>
+						<a>
+							<i class="icon iconfont">&#xe65e;</i>
+							<p>企业文化</p>
+						</a>
+					</li>
+					<li>
+						<a>
+							 <i class="icon iconfont">&#xe84b;</i>
+							<p>职业发展</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="about_bottom">
+			<ul class="about_bottom_children">
+				<li class="about_bottom_children1">
+					<a src=""><i class="icon iconfont">&#xe6b8;</i>Java软件工程师</a>
+				</li>
+				<li class="about_bottom_children2">
+					<a src=""><i class="icon iconfont">&#xe627;</i>Android软件工程师</a>
+				</li>
+				<li class="about_bottom_children3">
+					<a src=""> <i class="icon iconfont">&#xe727;</i>WEB前端工程师</a>
+				</li>
+				<li class="about_bottom_children4">
+					<a src=""> <i class="icon iconfont">&#xe6dc;</i>UID高级工程设计师</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+<!-- 新闻&内刊 -->	
+	<div class="news">
+		<h2 id="tips">新闻&内刊</h2>
+		<div class="news_left">
+			<div class="news_left_img">
+				<img src="./images/magazine-pic.png">
+			</div>
+			<div class="news_left_font">
+				<p class="news_left_p">艾时代</p>
+				<p class="news_left_p1">移动端的工作已经越来越成为前端工作的重要内容，除了平常的项目开发，HTML 头部标签功能，特别是meta标签显得非常重要。</p>
+				<a onmouseover="getmore(2)" onmouseout="getmoreout(2)">下载阅读</a>
+			</div>
+		</div>
+		<div class="news_right">
+			<div class="news_right_top">
+				<h3>艾盈新闻<a>了解更多>></a></h3>
+				
+			</div>
+			<ul class="news_right_bottom">
+				<li>
+					<span>2016/08/25</span>
+					<a>艾盈互联网人才孵化中心 培育JAVE行业后备军</a>
+				</li>
+				<li>
+					<span>2016/08/25</span>
+					<a>艾盈互联网人才孵化中心 培育JAVE行业后备军</a>
+				</li>
+				<li>
+					<span>2016/08/25</span>
+					<a>艾盈互联网人才孵化中心 培育JAVE行业后备军</a>
+				</li>
+				<li>
+					<span>2016/08/25</span>
+					<a>艾盈互联网人才孵化中心 培育JAVE行业后备军</a>
+				</li>
+				<li>
+					<span>2016/08/25</span>
+					<a>艾盈互联网人才孵化中心 培育JAVE行业后备军</a>
+				</li>
+				<li>
+					<span>2016/08/25</span>
+					<a>艾盈互联网人才孵化中心 培育JAVE行业后备军</a>
+				</li>
+				<li>
+					<span>2016/08/25</span>
+					<a>艾盈互联网人才孵化中心 培育JAVE行业后备军</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+<!-- 青麦，卓越的互联网人才服务专家 -->	
+	<div class="foot">
+		<ul class="foot_top">
+		<h2>艾盈，卓越的互联网人才服务专家</h2>
+			<li>
+				<p>10<span>年人才服务经验</span></p>
+			</li>
+			<li>
+				<p>8<span>万人次成功就业服务</span></p>
+			</li>
+			<li>
+				<p>1<span>万+家企业人才输送</span></p>
+			</li>
+			<li>
+				<p>16<span>个全国运营中心</span></p>
+			</li>
+		</ul>
+		<div class="foot_bottom">
+			<div class="foot_bottom_left">	
+				<h2>我们积极参与和企业的合作，赢得雇主的青睐</h2>
+				<ul class="foot_bottom_left_children">
+					<li>
+						<img src="images/partner-01.png">
+					</li>
+					<li>
+						<img src="images/partner-02.png">
+					</li>
+					<li>
+						<img src="images/partner-03.png">
+					</li>
+					<li>
+						<img src="images/partner-04.png">
+					</li>
+					<li>
+						<img src="images/partner-05.png">
+					</li>
+					<li>
+						<img src="images/partner-06.png">
+					</li>
+				</ul>
+			</div>
+			<div class="foot_bottom_right">
+				<h2>艾盈全国校企合作峰会</h2>
+				<div class="foot_bottom_right_children">
+					<img src="images/cooperation-01.jpg" alt="">
+					<p>艾盈教育科技联合上海交通大学、Oracle中国、SAP中国，持续举办全国大型校企合作峰会，数百家中国高等院校和知名企业高层每年汇聚上海，共商当代大学生就业和创业大计。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- 底部开始 -->
+	<div class="bottom">
+		<div class="bottom_content">
+			<div class="content_frame">
+				<div class="frame_left">
+				   <ul>
+					   <li class="left">
+						    <div class="left_p">
+								<h1>关于我们</h1>
+								<a href="">公司简介</a>
+								<a href="">管理团队</a>
+								<a href="">社会责任</a>
+								<a href="">企业文化</a>
+							</div>	
+					    </li>
+						<li class="left">
+						    <div class="left_p">
+								<h1>合作伙伴</h1>
+								<a href="http://www.ibm.com/cn-zh/">IBM</a>
+								<a href="http://aiwin.5858.com/">天津艾盈科技有限公司</a>
+								<a href="http://www.henu.edu.cn/">河南大学</a>
+								<a href="http://www.huel.edu.cn/">河南财经政法大学</a>
+							</div>
+						</li>
+						<li class="left">
+						    <div class="left_p">
+								<h1>友情链接</h1>
+								<a href="">滴滴滴滴</a>
+								<a href="">滴滴滴滴</a>
+								<a href="">滴滴滴滴</a>
+								<a href="">滴滴滴滴</a>
+							</div>
+						</li>
+						<li class="left">
+						    <div class="left_p">
+								<h1>联系我们</h1>
+								<a class="info_link" data-toggle="modal" data-target="#myModal">公司地址 ：无锡市新区国家软件园飞鱼座C栋</a>
+								<a>联系电话 ：0510-85388614</a>
+								<a>联系邮箱 ：iwin@yxintech.com</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="frame_right">
+                    <div class="right_p">
+                    	<h1>官方二维码</h1>
+                    </div>
+					<div class="qr-code">
+						<img src="images/erweima.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom_copyright">
+		    <div class="copyright_box">
+			 	<ul>
+			 		<li class="copyright_item">
+			 			<p class="item_info">Copyright @ 2016 艾盈科技 | 教育 > 互联网 < 人才</p>
+			 		</li>
+			 		<li class="copyright_item">
+			 			<p class="item_num">京ICP备10012705号-8</p>
+			 		</li>
+			 	</ul>
+			</div> 	
+		</div>
+	</div>
+<!-- 底部结束 -->
+<!-- 箭头 -->
+	<div class="fixed">
+		<img src="images/jt.png" alt="">
+	</div>
+<!-- 箭头结束 -->
+<!-- Modal -->
+	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">联系我们</h4>
+	    	</div>
+	    	<div class="modal-body">
+
+
+	    	</div>
+	    	<div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+	        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+	      </div>
+	    </div>
+	  </div>
+	</div>
+<!-- 联系我们开始 -->
+<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">联系我们</h4>
+	    	</div>
+	    	<div class="modal-body">
+	    		<div class="contact_more">
+	    			<img src="images/contact.jpg">
+	    			<div class="contact_more_pr">
+	    				<h3>无锡艾盈科技有限公司</h3>
+	    				<p>联系地址：无锡市国家软件园飞鱼座C栋702</p>
+	    				<p>联系电话：0510-85388343</p>
+	    				<p>电子邮箱：iwin@yxintech.com</p>
+	    			</div>
+	    		</div>
+	    		
+	    		<div style="width:500px;height:450px;border:#ccc solid 1px;float:left;margin-left:10px;" id="dituContent"></div>
+	    		<div class="clear"></div>
+	    	</div>
+	    	<div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+	        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+	      </div>
+	    </div>
+	  </div>
+	</div>
+<!-- 联系我们结束 -->
+</div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	  $('.bxslider').bxSlider();
+	});
+	
+</script>
+</html>

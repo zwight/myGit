@@ -1,0 +1,322 @@
+﻿*{
+	margin:0;
+	padding: 0;
+}
+body{
+	width: 6.4rem;
+	height: auto;
+	background: #1f2326;
+}
+.ysp_top_title{
+	width: 100%;
+	height: 1.07rem;
+	background: #282828;
+}
+.ysp_top_title p{
+	font-size: 0.36rem;
+    font-family: "微软雅黑";
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0.45rem;
+    left: 2.48rem;
+    width: 1.46rem;
+}
+.ysp_anchor_information{
+	width: 5.95rem;
+	height: 1.71rem;
+	border-bottom: 0.03rem solid #f4703f;
+	margin:auto;
+}
+#anchor_head_portrait{
+	width: 1.3rem;
+	height: 1.3rem;
+	border-radius: 50%;
+	margin-left: 0.29rem;
+	margin-top: 0.23rem;
+	float: left;
+}
+.anchor_admin{
+	width: 3.99rem;
+	float: left;
+	margin-left: 0.36rem;
+	margin-top: 0.48rem;
+}
+.anchor_admin p{
+	font-size: 0.29rem;
+	font-family: "微软雅黑";
+	color: #7c7d7d;
+	letter-spacing: 0.07rem;
+}
+.anchor_name_first{
+	font-size: 0.29rem;
+	font-family: "微软雅黑";
+	color: #fff;
+	margin-left: 0.12rem;
+	letter-spacing:0;
+}
+.anchor_admin_icon{
+	font-size: 0.29rem;
+	font-family: "微软雅黑";
+	margin-left: 0.12rem;
+	letter-spacing:0;
+	color: #7c7d7d;
+}
+.anchor_lifted{
+	width: 3.99rem;
+	margin-left: 0.35rem;
+	float: left;
+}
+#lift_png{
+	width: 0.45rem;
+	height: 0.45rem;
+    margin-top: 0.23rem;
+    float: left;
+}
+.anchor_lifted p{
+	font-size: 0.29rem;
+	font-family: "微软雅黑";
+	color: #7c7d7d;
+	margin-top: 0.2rem;
+	letter-spacing: 0.07rem;
+	margin-left: 0.5rem;
+}
+.anchor_lifted p span{
+	font-size: 0.25rem;
+	font-family: "微软雅黑";
+	color: #fff;
+	margin-left: 0.12rem;
+	letter-spacing: 0;
+}
+.anchor_lifted_num{
+	font-size: 0.25rem;
+	font-family: "微软雅黑";
+	color: #fff;
+	margin-left: 0.12rem;
+	letter-spacing: 0;
+}
+.anchor_lifted p span:nth-child(1){
+	color: #7c7d7d;
+}
+.ysp_anchor_number{
+	width: 5.95rem;
+	height: 0.93rem;
+	margin-top: 0.35rem;
+	border:0.02rem solid #313334;
+	margin-left: 0.24rem;
+	border-radius: 0.23rem;
+	box-shadow: 0.03rem 0.03rem 0 rgba(6,0,1,0.75);
+}
+.ysp_anchor_number_left{
+	width: 3.24rem;
+	height: 0.9rem;
+	margin-left: 0.32rem;
+	float: left;
+}
+.ysp_anchor_number_right{
+	width: 2.07rem;
+	height: 0.9rem;
+	float: left;
+}
+.ysp_anchor_number p{
+	/*width: 3.15rem;*/
+	font-size: 0.28rem;
+	font-family: "微软雅黑";
+	color: #fff;
+	/*margin-top: 0.32rem;*/
+	line-height: 0.9rem;
+	float: left;
+}
+.ysp_anchor_number img{
+    width: 2.11rem;
+    height: 0.35rem;
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.26rem;
+}
+#wechat_id{
+	float: left;
+	margin-left: 0.2rem;
+	line-height: 0.9rem;
+	color: #fff;
+    font-size: 0.28rem;
+    font-family: "微软雅黑"
+}
+#wallet_png{
+	width: 0.38rem;
+    height: 0.42rem;
+    float: right;
+    margin-right: 0.2rem;
+    margin-top: 0.25rem;
+}
+.ysp_anchor_number a{
+	font-size: 0.23rem;
+    font-family: "微软雅黑";
+    color: #fff;
+/*    margin-top: 0.37rem;
+    margin-right: 0.35rem;*/
+    line-height: 0.9rem;
+    float: right;
+    text-decoration: none;
+}
+.ysp_anchor_detail{
+	width: 5.95rem;
+	height: 4.24rem;
+	margin-top: 0.35rem;
+	border:0.02rem solid #313334;
+	margin-left: 0.24rem;
+	border-radius: 0.23rem;
+	box-shadow: 0.03rem 0.03rem 0 rgba(6,0,1,0.75);
+}
+.anchor_detail_title{
+	width: 5.95rem;
+	height: 0.72rem;
+	border-bottom: 0.02rem solid #313334;
+	line-height: 0.72rem;
+}
+.anchor_detail_title p{
+	font-size: 0.27rem;
+	font-family: "微软雅黑";
+	margin-left: 0.22rem;
+	color: #fff;
+}
+.ysp_anchor_detail ul{
+	width: 5.24rem;
+	height: 3.51rem;
+	list-style: none;
+	padding-left: 0.38rem;
+	padding-right: 0.36rem;
+}
+.ysp_anchor_detail ul li:nth-child(1){
+	width: 5.24rem;
+	height: 0.84rem;
+	font-size: 0.27rem;
+	font-family: "微软雅黑";
+	line-height: 0.84rem;
+	color: #fff;
+	border-bottom: 0.02rem solid #313334;
+	letter-spacing: 0.01rem;
+}
+.ysp_anchor_detail ul li:nth-child(2),li:nth-child(3),li:nth-child(4){
+	width: 5.24rem;
+	height: 0.75rem;
+	font-size: 0.27rem;
+	font-family: "微软雅黑";
+	line-height: 0.75rem;
+	color: #fff;
+	border-bottom: 0.02rem solid #313334;
+	letter-spacing: 0.01rem;
+}
+.ysp_anchor_detail ul li:nth-child(1) span{
+	margin-left: 0.14rem;
+	margin-right: 0.21rem;
+}
+.ysp_anchor_detail ul li:nth-child(2) p{
+	float: left;
+}
+.ysp_anchor_detail ul li:nth-child(2) p:nth-child(2){
+	float: right;
+}
+.ysp_anchor_detail ul li:nth-child(2) span{
+	margin-left: 0.14rem;
+}
+.ysp_anchor_detail ul li:nth-child(3) span{
+	margin-left: 0.14rem;
+	margin-right: 0.29rem;
+}
+.ysp_anchor_detail ul li:nth-child(4) p{
+	float: left;
+}
+.ysp_anchor_detail ul li:nth-child(4) p:nth-child(2){
+	float: right;
+}
+.ysp_anchor_detail ul li:nth-child(4) span{
+	margin-left: 0.14rem;
+}
+/**/
+.anchor_style{
+	float: left;
+	width: 5.94rem;
+	border: 0.02rem solid #313334;
+	margin-top: 0.43rem;
+	margin-left:0.23rem;
+	border-radius: 0.23rem;
+	box-shadow: 0.03rem 0.03rem 0 rgba(6,0,1,0.75);
+}
+#anchor_style_p{
+	float: left;
+	width: 5.7rem;
+	font-size: 0.29rem;
+	font-family: "微软雅黑";
+	height: 0.72rem;
+	padding-left:0.23rem;
+	line-height: 0.72rem;
+	color: #fff;
+	border-bottom: 2px solid #313334;
+}
+.anchor_style_main{
+	float: left;
+	width: 5.22rem;
+	margin-left: 0.38rem;
+	margin-bottom: 0.33rem;
+	overflow: hidden;
+}
+.anchor_style_video{
+	float: left;
+	width: 5.22rem;
+	height: 2.95rem;
+	margin-top: 0.23rem;
+	margin-bottom: 0.13rem;
+}
+.anchor_recommend{
+    line-height: 0.35rem;
+    font-size: 0.27rem;
+    font-family: "微软雅黑";
+    color: #fff;
+}
+.anchor_style_main img{
+	width: 5.22rem;
+	height: 2.94rem;
+	margin-top: 0.3rem;
+	margin-bottom: 0.45rem;
+}
+.bottom{
+	float: left;
+	width: 6.4rem;
+}
+.load_more{
+	width: 1.98rem;
+	height: 0.6rem;
+	background-color: #413838;
+	border-radius: 0.24rem 0.2rem;
+	margin: 0.8rem auto;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+.load_more img{
+	width: 0.48rem;
+	height: 0.52rem;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.23rem;
+	display: block;
+}
+.load_more p{
+	font-size: 0.2rem;
+	font-family: "微软雅黑";
+	line-height: 0.6rem;
+	float: left;
+	color: #8a8888;
+}
+.copyright{
+	float: left;
+	width: 6.4rem;
+	margin-top: 0.7rem;
+	margin-bottom: 0.33rem;
+}
+.copyright p{
+	font-size: 0.2rem;
+	font-family: "微软雅黑";
+	text-align: center;
+	color: #8a8888;
+}

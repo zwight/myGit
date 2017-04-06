@@ -1,0 +1,488 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+body{
+	width: 6.4rem;
+	background-color: #1f2326;
+	font-family: "微软雅黑";
+}
+ul{
+	list-style: none;
+}
+a,.load_more{
+	text-decoration: none;
+	border:none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	outline:none;
+}
+/*头部样式开始*/
+li img{
+	display: block;
+	margin: 0 auto;
+}
+#wrap{
+	float: left;
+	width: 5.88rem;
+	height: 1.92rem;
+	overflow: hidden;
+	margin: 0.26rem;
+	position: relative;
+}
+.hiSlider{
+	height: 1.92rem;
+	position: relative;
+}
+.hiSlider-item{
+	width: 5.88rem;
+	height: 1.92rem;
+	float: left;
+}
+.hiSlider-item img{
+	width: 5.88rem;
+	height: 1.92rem;
+	border-radius: 0.1rem;
+}
+.hiSlider-pages{
+	position:absolute;
+	z-index:3
+}
+.hiSlider-pages {
+	bottom:0.08rem;
+	text-align:center;
+	height: 0.12rem;
+}
+.hiSlider-pages a{
+	float: left;
+	height:0.12rem;
+	width:0.12rem;
+	margin:0 0.075rem;
+	display:inline-block;
+	overflow:hidden;
+	text-indent:-100px;
+	font-size:0;
+	border-radius:50%;
+	background:rgba(255,255,255,0.4);
+}
+.hiSlider-pages a.active {
+	background:#fff;
+}
+.top_more{
+	float: left;
+	height: 0.35rem;
+	width: 5.88rem;
+	margin-top: 0.04rem;
+	margin-left: 0.26rem;
+}
+.top_more_left{
+	float: left;
+}
+.top_more_left p{
+	font-size: 0.27rem;
+	height: 0.35rem;
+	line-height: 0.35rem;
+	color: #fff;
+}
+.top_more_left p span{
+	width: 0.08rem;
+	height: 0.35rem;
+	float: left;
+	background-color: #f4703f;
+	border-radius: 0.04rem;
+	margin-right: 0.15rem;
+}
+.top_more_right{
+	float: right;
+}
+.top_more_right p{
+	font-size: 0.21rem;
+	color: #f4703f;
+	line-height: 0.3rem;
+	margin-top: 0.05rem;
+}
+.top_more_right p span{
+	color: #fff;
+	float: right;
+	margin-left: 0.1rem;
+}
+.nav{
+	float: left;
+	width: 2.9rem;
+	height: 0.52rem;
+	margin-top: 0.32rem;
+	margin-left: 1.75rem;
+	margin-bottom: 0.53rem;
+}
+.nav ul li{
+	float: left;
+	width: 1.45rem;
+	background-color: #323335;
+}
+.nav ul .nav_first{
+	background-color: #f4703f;
+	border-bottom-left-radius: 0.26rem;
+	border-top-left-radius: 0.26rem;
+}
+.nav ul .nav_second{
+	border-bottom-right-radius: 0.26rem;
+	border-top-right-radius: 0.26rem;
+}
+.nav ul li p{
+	font-size: 0.21rem;
+	height: 0.52rem;
+	line-height: 0.52rem;
+	text-align:center;
+	color: #fff;
+	letter-spacing: 0.052rem;
+}
+/*头部样式结束*/
+.main_box{
+	width: 6rem;
+	float: left;
+	height: auto;
+	overflow: hidden;
+	margin-left: 0.14rem;
+}
+.main{
+	float: left;
+	width: 12.1rem;
+	margin-left: 0;
+	overflow: hidden;
+	height: auto;
+}
+/*热门样式开始*/
+.main_hot{
+	float: left;
+	width: 5.88rem;
+	margin-left: 0.13rem;
+}
+.main_hot ul{
+	width: 5.88rem;
+	height: 3.80rem;
+	float: left;
+	margin-top: 0.28rem;
+}
+.main_hot ul:first-child{
+	margin-top: 0;
+}
+.main_hot_anchor{
+	width: 2.74rem;
+	height: 3.80rem;
+	float: left;
+	margin-left: 0;
+	margin-right: 0.2rem;
+	margin-top: 0;
+	font-size: 0.14rem;
+	color: #fff;
+	box-shadow: 0.06rem 0.06rem 0.04rem #0f1011;
+}
+.main_hot_anchor_right{
+	margin-right: 0;
+	margin-left: 0.1rem;
+}
+.anchor_number{
+	width: 2.74rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	margin-left: 0.07rem;
+	font-size: 0.2rem;
+}
+.anchor_imgbox{
+	position: relative;
+	width: 2.61rem;
+	height: 2.62rem;
+	float: left;
+	margin-left: 0.07rem;
+}
+.anchor_imgbox img{
+	width: 2.61rem;
+	height: 2.62rem;
+}
+.anchor_icon{
+    position: absolute;
+    width: 0.48rem;
+    height: 0.48rem;
+    border-radius: 50%;
+    left: 0.08rem;
+    top: 0.15rem;
+}
+.anchor_icon img{
+	width: 0.48rem;
+    height: 0.48rem;
+}
+.anchor_name{
+	position: absolute;
+	width: 2.61rem;
+	height: 0.41rem;
+	top: 2.07rem;
+	color: #fff;
+	background: rgba(0,0,0,0.63);
+}
+.anchor_name p{
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.41rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 0 0.2rem;
+}
+.anchor_introduce{
+    width: 2.74rem; 
+    height: 0.79rem;
+    float: left;
+    color: #fff;
+}
+.anchor_introduce p{
+	font-size: 0.19rem;
+	width: 2.61rem;
+	margin-top: 0.15rem;
+	float: left;
+	padding-left: 0.12rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+/*热门样式结束*/
+
+/*排行榜样式开始*/
+.main_rank{
+	float: left;
+	width: 6rem;
+}
+/*前三名第1名 开始*/
+.rank{
+	width:6rem;
+	height: auto;
+	background:#212123;
+	list-style: none;
+}
+.rank li{
+	width: 5.98rem;
+	height: 1.12rem;
+	background: #262629;
+	border-radius: 10px;
+	margin-bottom: 0.37rem;
+	box-shadow: 4px 4px 2px #1e1e1e;
+}
+.rank li:nth-child(1){
+	margin-top:0.16rem;
+}
+.rank li:last-child{
+	margin-bottom: 0;
+}
+.li_before{
+	width: 0.11rem;
+	height: 1.12rem;
+	background: #f9bc3c;
+	float:left;
+}
+.li_before_one{
+	width: 0.11rem;
+	height: 1.12rem;
+	background: #e417d8;
+	float:left;
+}
+.li_before_two{
+	width: 0.11rem;
+	height: 1.12rem;
+	background: #60a0ff;
+	float:left;
+}
+.li_before_three{
+	width: 0.11rem;
+	height: 1.12rem;
+	background: #262629;
+	float:left;
+}
+.li_serial{
+	width: 0.55rem;
+	height: 1.12rem;
+	text-align: center;
+	line-height: 1.12rem;
+	font-size: 0.38rem;
+	color: #f9bc3c;
+	font-family: "微软雅黑";
+	float:left;
+}
+.li_serial_one{
+	width: 0.55rem;
+	height: 1.12rem;
+	text-align: center;
+	line-height: 1.12rem;
+	font-size: 0.38rem;
+	color: #e417d8;
+	font-family: "微软雅黑";
+	float:left;
+}
+.li_serial_two{
+	width: 0.55rem;
+	height: 1.12rem;
+	text-align: center;
+	line-height: 1.12rem;
+	font-size: 0.38rem;
+	color: #60a0ff;
+	font-family: "微软雅黑";
+	float:left;
+}
+.li_serial_three{
+	margin-left: 0.11rem;
+	width: 0.55rem;
+	height: 1.12rem;
+	text-align: center;
+	line-height: 1.12rem;
+	font-size: 0.38rem;
+	color: #c8c8c8;
+	font-family: "微软雅黑";
+	float:left;
+}
+.li_head{
+	width: 1rem;
+	height: 1.17rem;
+	float:left;
+}
+.head_icon{
+	width: 0.35rem;
+	height:0.25rem;
+	display: block;
+	margin-left: 0.32rem;
+	margin-top:-0.16rem;
+}
+.head{
+	width: 0.9rem;
+	height: 0.9rem;
+	display: block;
+	margin: 0.1rem auto;
+	border: 2px	solid #f9bc3c;
+	border-radius: 50%;
+	margin-top: 2px;
+}
+.head_one{
+	width: 0.9rem;
+	height: 0.9rem;
+	display: block;
+	margin: 0.1rem auto;
+	border: 2px	solid #e417d8;
+	border-radius: 50%;
+	margin-top: 2px;
+}
+.head_two{
+	width: 0.9rem;
+	height: 0.9rem;
+	display: block;
+	margin: 0.1rem auto;
+	border: 2px	solid #60a0ff;
+	border-radius: 50%;
+	margin-top: 2px;
+}
+.head_three{
+	width: 0.9rem;
+	height: 0.9rem;
+	display: block;
+	margin: 0.1rem auto;
+	border: 2px	solid #c8c8c8;
+	border-radius: 50%;
+	margin-top: 0.1rem;
+}
+.li_information{
+	width: 2.89rem;
+	height: 1.12rem;
+	margin-left: 0.26rem;
+	float:left;
+}
+.information_top,.information_bottom{
+	width: 2.89rem;
+	height: 0.56rem;
+	line-height: 0.56rem;
+	font-family: "微软雅黑";
+}	
+.nickname{
+	width: 3.69rem;
+	height: 0.28rem;
+	font-size: 0.19rem;
+	margin-top: 0.24rem;
+	color: #fff;
+	float: left;
+	line-height: 0.28rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.contribute{
+	width: 1.15rem;
+	height: 0.28rem;
+	font-size: 0.23rem;
+	color: #f4703f;
+	margin-left: 0.12rem;
+	float: left;
+}
+.contribute span{
+	margin-right: 0.1rem;
+}
+.contribute_img{
+	width: 0.34rem;
+	height: 0.34rem;
+	margin-top: 0.07rem;
+	margin-left: 5px;
+	float: left;
+}
+/*底部 开始*/
+.main_hot .bottom{
+	float: left;
+	width: 5.88rem;
+	color: #929292;
+}
+.main_rank .bottom{
+	float: left;
+	width: 6rem;
+	color: #929292;
+}
+.main_hot .load_more{
+	margin-top: 1.48rem;
+}
+.main_rank .load_more{
+	margin-top: 0.4rem;
+}
+.load_more{
+	width: 1.98rem;
+	height: 0.6rem;
+	background-color: #413838;
+	border-radius: 0.24rem 0.2rem;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.load_more img{
+	width: 0.48rem;
+	height: 0.52rem;
+	float: left;
+	margin-top: 0.14rem;
+	margin-left: 0.23rem;
+	display: block;
+}
+.load_more p{
+	font-size: 0.2rem;
+	line-height: 0.6rem;
+	float: left;
+}
+.copyright{
+	float: left;
+	
+	margin-top: 0.7rem;
+	margin-bottom: 0.33rem;
+}
+.main_rank .copyright{
+	width: 6rem;
+}
+.main_hot .copyright{
+	width: 5.88rem;
+}
+.copyright p{
+	font-size: 0.2rem;
+	text-align: center;
+}
+/*排行榜样式结束*/

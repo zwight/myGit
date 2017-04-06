@@ -1,0 +1,566 @@
+#mainbody{
+	width: 100%;
+	height: auto;
+	font-family: "微软雅黑";
+}
+p:hover{
+	color: #c81623;
+}
+.focus_news p:hover{
+	color: #c81623;
+}
+.mainbody_border{
+	width: 100%;
+	height: 44px;
+	border-bottom: 2px solid #b1191a;
+}
+.mainbody_top{
+	width: 1210px;
+	height: 44px;
+	margin:0 auto;
+}
+.categorys{
+	position: relative;
+	width: 210px;
+	float: left;
+	height: 44px;
+	overflow: visible;
+}
+.categorys_dt{
+	/*float: left;*/
+	width: 190px;
+	height: 44px;
+	background-color: #b1191a;
+	font-size: 15px;
+	line-height: 44px;
+	padding: 0 10px;
+	color: #fff;
+	font-weight: bold;
+}
+.categorys_dd{
+	width: 210px;
+	height: 466px;
+	margin-top: 2px;
+}
+.categorys_dd ul{
+	float: left;
+	width: 210px;
+	list-style: none;
+}
+.categorys_dd ul li{
+	position: relative;
+	background-color: #c81623;
+	height: 31px;
+	z-index: 1;
+}
+.categorys_dd ul li p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 31px;
+	font-weight: bold;
+	padding: 0 10px;
+}
+.categorys_dd ul li p span{
+	float: right;
+	right: 14px;
+	font-weight: normal;
+	font-family: consolas;
+}
+.mainbody_top_menu{
+	width: 738px;
+	height: 44px;
+	float: left;
+}
+.mainbody_top_menu ul{
+	list-style: none;
+	/*float: left;*/
+}
+.mainbody_top_menu ul li{
+	float: left;
+}
+.mainbody_top_menu ul li p{
+	font-size: 16px;
+	padding: 0 20px;
+	text-align: center;
+	line-height: 44px;
+	font-weight: 400;
+}
+.mainbody_top_menu ul li p:hover{
+	color: #c81623;
+}
+.mainbody_top_img img{
+	width: 200px;
+	height: 54px;
+	float: left;
+	margin-left: 10px;
+	margin-top: -10px;
+}
+.mainbody_bgimg{
+	position: relative;
+}
+.mainbody_bgimg a{
+	background: url(../images/icon/Olympicbg.jpg) no-repeat center top;
+	position: absolute;
+	height: 644px;
+	width: 100%;
+	top: 0;
+	z-index: -1;
+}
+.mainbody_focus{
+	position: relative;
+}
+.slider{
+	position: relative;
+	width: 1210px;
+	margin:0 auto;
+	height: 466px;
+	overflow: hidden;
+}
+.box01{
+	position: relative;
+	z-index: 0;
+}
+.box01 li{
+	position: absolute;
+	-webkit-transition:opacity 1s;
+}
+.slider img{
+	margin:12px 260px 0 220px;
+	width: 730px;
+	height: 454px;
+}
+.slider_extre{
+	height: 16px;
+	margin:0 auto;
+}
+.slider_extre ul{
+	position: absolute;
+	list-style: none;
+	float: left;
+	height: 130px;
+	left: 520px;
+	top: 440px;
+}
+.slider_extre ul li{
+	float: left;
+	background-color: #3e3e3e;
+	color: #fff;
+	width: 18px;
+	height: 18px;
+	border-radius: 9px;
+	text-align: center;
+	margin-right: 3px;
+	margin-bottom: 26px;
+}
+.slider_extre ul li:first-child{
+	background-color: #b61b1f;
+}
+.slider_page{
+	position: absolute;
+	top: 50%;
+	display: none;
+	cursor: pointer;
+}
+.slider_page p{
+	float: left;
+	color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: simsun;
+	width: 28px;
+	height: 62px;
+	/*top: 50%;*/
+	background:rgba(0,0,0,0.2);
+	line-height: 62px;
+	margin-top: -31px;
+}
+.slider_prev{
+	margin-left: 220px;
+}
+.slider_next{
+	/*float: right;*/
+	margin-left: 674px;
+}
+.glyphicon{
+	line-height: 62px;
+	color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: simsun;
+}
+.focus{
+	width: 1210px;
+	margin:0 auto;
+	position: relative;
+	top: -446px;
+}
+.focus_news{
+	position: absolute;
+	right: 0;
+	height: 163px;
+	width: 248px;
+	top: -8px;
+	border: 1px solid #e4e4e4;
+	border-bottom: 0;
+	/*background:rgba(255,255,255,0.85);*/
+}
+.focus_news_mt{
+	height: 32px;
+	line-height: 32px;
+	padding: 0 15px;
+    border-bottom: 1px dashed #E8E8E7;
+}
+.focus_news_mt h2{
+	float: left;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	font-weight:normal;
+}
+.focus_news_mt p{
+	float: right;
+	color: #666;
+	font-family: consolas;
+}
+.focus_news_mc{
+	height: 120px;
+	padding:8px 0 0 15px;
+}
+.focus_news_mc ul{
+	list-style: none;
+}
+.focus_news_mc ul li{
+	width: 210px;
+	height: 24px;
+	line-height: 24px;
+}
+.focus_news_mc ul li p{
+	color: #666;
+	text-decoration: none;
+}
+.focus_news_mc ul li p span{
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+.focus_lifeserv{
+	position: absolute;
+	right: 0;
+	width: 248px;
+	border: 1px solid #e4e4e4;
+	top: 155px;
+}
+.focus_lifeserv_mc{
+	height: 208px;
+}
+.focus_lifeserv_mc ul{
+	width: 260px;
+	height: 209px;
+	list-style: none;
+}
+.focus_lifeserv_mc ul li{
+	float: left;
+	display: inline;
+	width: 61px;
+	height: 69px;
+	border-right: 1px solid #e8e8e7;
+	border-bottom: 1px solid #e8e8e7;
+}
+.focus_lifeserv_mc ul li img{
+	width: 25px;
+	height: 25px;
+	margin-left: 18px;
+	margin-top: 13px;
+}
+.focus_lifeserv_mc ul li p{
+	width: 61px;
+	text-align: center;
+	margin:3px 
+	cursor: pointer;
+}
+.focus_pic{
+	position: absolute;
+	right: 0;
+	width: 250px;
+	height: 75px;
+	top: 371px;
+}
+.hot_day{
+	height: 184px;
+	width: 1210px;
+	margin:0 auto;
+}
+.today{
+	height: 164px;
+	margin:10px 0 20px;
+}
+.today_mc{
+	float: left;
+	width: 210px;
+	height: 151px;
+}
+.today_mt{
+	width: 1000px;
+	height: 164px;
+	float: left;
+}
+.today_mt ul{
+	list-style: none;
+}
+.today_mt ul li{
+	width: 249px;
+	margin-right: 1px;
+	float: left;
+	overflow: hidden;
+}
+.guess_like{
+	width: 1210px;
+	height: 289px;
+	margin:0 auto;
+}
+.guess_like_info p:hover{
+	color: #c81623;
+}
+.guess_you{
+	height: 269px;
+	margin-bottom: 20px;
+}
+.guess_like_top{
+	height: 36px;
+}
+.guess_like_top p{
+	float: left;
+	padding-right: 228px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	background:url(../images/icon/homebg.png) no-repeat;
+	background-position: 85px -91px;
+	color: #333;
+}
+.guess_like_top a{
+	float: right;
+	color: #666;
+	height: 18px;
+	padding-right: 25px;
+	margin-top: 8px;
+	background:url(../images/icon/homebg.png) no-repeat;
+	background-position: -310px -5px;
+	text-decoration: none;
+}
+div.guess_like_info p:hover {
+    color: #c81623;
+}
+.guess_like_main{
+	width: 1210px;
+	height: 232px;
+	border: 1px solid #ededed;
+	border-top: 0;
+}
+.guess_like_main_spacer{
+	position: relative;
+	height: 1px;
+	background-color: #d1d1d1;
+}
+.guess_like_main_spacer p{
+	position: absolute;
+	width: 365px;
+	height: 5px;
+	right: -1px;
+	top: -2px;
+	background:#b72323 url(../images/icon/homebg.png) no-repeat;
+	background-position: 0 -124px;
+}
+.guess_like_main ul{
+	height: 210px;
+	padding-top: 20px;
+}
+.guess_like_main ul li{
+	text-align: center;
+	width: 201px;
+	float: left;
+	padding-bottom: 15px;
+	display: list-item;
+}	
+
+.guess_like_main ul li img{
+	width: 130px;
+	height: 130px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
+.guess_like_info{
+	padding: 0 36px;
+	border-left: 1px solid #e6e6e6;
+}
+#guess_like_info_first{
+	border-left: none;
+}
+.guess_like_info p:nth-child(1){
+	height: 36px;
+	margin-bottom: 6px;
+	color: #666;
+	text-decoration: none;
+	overflow: hidden;
+}
+.guess_like_price{
+	color: #b51d1a;
+	font-size: 18px;
+	text-align: left;
+}
+.guess_like_price span{
+	font-size: 14px;
+}
+.special_life{
+	width: 1210px;
+	height: 463px;
+	margin:0 auto;
+}
+.special_life p:hover{
+	color: #c81623;
+}
+.special_life_buy{
+	width: 1210px;
+	margin-bottom: 20px;
+}
+.special_life_buy p{
+	color: #333;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+}
+.special_life_buy_content{
+	height: 405px;
+	border:1px solid #ededed;
+}
+.sl_cols01{
+	float: left;
+	height: 100%;
+	background-color: #f7f7f7;
+}
+.sl_item{
+	position: relative;
+	width: 403px;
+	height: 246px;
+	border-bottom:1px solid #ededed ;
+	border-right:1px solid #ededed;
+	color: #666;
+	text-decoration: none;
+	overflow: hidden;
+}
+.sl_item .sl_area{
+	font-size: 15px;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px dashed #e0e0e0;
+	margin:0 20px;
+}
+.sl_item_sub{
+	position: absolute;
+	left: 45px;
+	top: 109px;
+	color: #333;
+	line-height: 1.2;
+}
+.sl_item_sub p{
+	font-size: 16px;
+	line-height: 1.2;
+	margin-bottom: 12px;
+	font-weight: 700;
+}
+.sl_item_sub p:nth-child(2){
+	font-size: 12px;
+	line-height: 1.2;
+	margin-bottom: 4px;
+	font-weight: normal;
+}
+.sl_item_sub p:nth-child(3){
+	font-size: 12px;
+	line-height: 1.2;
+	margin-bottom: 4px;
+	font-weight: normal;
+	color: #c81623;
+}
+
+.sl_item_small img{
+	margin-left: 0;
+}
+.sl_item_small{
+	position: relative;
+	width: 201px;
+	height: 158px;
+	float: left;
+	border-right: 1px solid #ededed;
+	border-bottom: none;
+}
+.sl_item_small .sl_item_sub{
+	top: 48px;
+	left: 10px;
+}
+.sl_cols02{
+	float: left;
+	height: 100%;
+}
+.sl_cols02 .sl_item{
+	width: 228px;
+	height: 246px;
+}
+.sl_cols02 .sl_item .sl_item_sub{
+	left: 10px;
+}
+.sl_cols02 .sl_item_small{
+	width: 228px;
+}
+.sl_cols03{
+	float: left;
+	height: 100%;
+	background-color: #f7f7f7;
+}
+.sl_brands{
+	width: 171px;
+	float: right;
+	height: 100%;
+	background-color: #fff;
+}
+.sl_brands_left{
+	border-right: 1px dashed #e0e0e0;
+	width: 85px;
+	float: left;
+	height: 381px;
+	margin-top: 13px;
+	overflow: hidden;
+}
+.sl_brands ul{
+	margin-top: -13px;
+	overflow: hidden;
+}
+.sl_brands_left ul li{
+	width: 85px;
+	height: 57px;
+	float: right;
+	text-align: center;
+	border-bottom: 1px dashed #e0e0e0;
+}
+.sl_brands ul li img{
+	margin-top: 0;
+	height: 57px;
+	vertical-align: middle;
+}
+.sl_brands_right ul li{
+	width: 85px;
+	height: 57px;
+	float: left;
+	text-align:center;
+	border-bottom: 1px dashed #e0e0e0;
+}
+#special_price .special_price_img img{
+	transition: all 0.4s ease-out;
+}
+#special_price li:hover .special_price_img img{
+	margin-left: -20px;
+}
+
+

@@ -1,0 +1,129 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	width: 100%;
+}
+.top_box{
+	position: relative;
+	width: 100%;
+	height: 290px;	
+	background: url(../images/service.jpg) no-repeat center center;
+}
+.top_box_text{
+	width: 100%;
+	height: 150px;
+	border-bottom: 2px dashed #c3b7b7;
+	margin-top: 30px;
+}
+.top_box_text p{
+	font-size: 20px;
+	font-family: "微软雅黑";
+	color: #868686;
+	margin-left: 128px;
+	line-height: 30px;
+}
+.top_box_one{
+	position: absolute;
+	top: 50px;
+	left:300px;
+}
+.top_box_one h3{
+	font-size: 30px;
+	font-family: "微软雅黑";
+    color: #d2d2d2;
+}
+.top_box_one p{
+	font-size: 30px;
+    font-weight: bold;
+    line-height: 48px;
+    color: #fff;
+    margin-top:40px;
+}
+.body_content{
+	width: 1200px;
+	height: auto;
+	margin:auto;
+}
+.body_content_ul{
+	list-style: none;
+	width: 100%;
+}
+.body_content_ul li{
+	width: 100%;
+	height: 435px;
+	border-bottom: 2px dashed #c3b7b7;
+}
+.body_content_ul li:nth-child(3){
+	border-bottom: none;
+}
+.body_content_ul li img{
+	float: left;
+	margin-top: 35px;
+}
+h3{
+	font-size: 24px;
+	font-family: "微软雅黑";
+	color: #333333;
+	float: left;
+	margin-left: 20px;
+	margin-top: 35px;
+}
+.body_content_ul li p{
+	width: 510px;
+	float: left;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #868686;
+	margin-left: 20px;
+	margin-top: 20px;
+	line-height: 30px;
+}
+.promise_box{
+	width: 100%;
+	height: 165px;
+	background: #1c201e;
+}
+.promise_box ul{
+	width: 100%;
+	height: 165px;
+	list-style: none;
+}
+.promise_box ul li{
+	width: 49%;
+	height: 165px;
+	font-size: 25px;
+	font-family: "微软雅黑";
+	color:#fff;
+	text-align: center;
+	line-height: 165px;
+	float: left;
+}
+.separate{
+	width: 2px;
+	height: 69px;
+	background: #fff;
+	border-radius: 2px;
+	float: left;
+	margin-top: 50px;
+}
+/*#to_top{
+	width: 42px;
+    height: 42px;
+    font-size: 20px;
+    line-height: 42px;
+    background: #636363;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+  /*  display: none;*/
+/*    color: #fff;
+}
+#to_top img{
+	width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}*/*/
